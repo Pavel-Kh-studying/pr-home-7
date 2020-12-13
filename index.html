@@ -19,28 +19,28 @@
         <p>Create your account.It's free and only takes a minute.</p>
         <form action="">
           <div>
-            <input type="text" placeholder="First Name" />
-            <input type="text" placeholder="Last Name" />
+            <input type="text" placeholder="First Name" required/>
+            <input type="text" placeholder="Last Name"  required/>
           </div>
           <div>
             <input type="email" placeholder="Email" />
             <p>What are you creating an account for?</p>
             <label for="radio-studying">
-              <input type="radio" id="radio-studying" name="interested-in">
+              <input type="radio" id="radio-studying" name="interested-in" required>
               Studying 
             </label>
             <label for="radio-business">
-              <input type="radio" id="radio-business" name="interested-in">
+              <input type="radio" id="radio-business" name="interested-in" required>
               Business
             </label>
             <label for="radio-other">
-              <input type="radio" id="radio-other" name="interested-in">
+              <input type="radio" id="radio-other" name="interested-in" required>
               Other
             </label>
-            <input type="password" placeholder="Password" />
-            <input type="password" placeholder="Confirm Password" />
+            <input type="password" placeholder="Password"  required/>
+            <input type="password" placeholder="Confirm Password"  required/>
             <label for="checkbox-register">
-              <input type="checkbox" id="checkbox-register" />
+              <input type="checkbox" id="checkbox-register"  required/>
               I accept the <a href="">Terms of Use</a> &
               <a href="">Privacy Policy</a>.
             </label>
